@@ -5,9 +5,10 @@ export default defineConfig({
   nodeModulesTransform: {
     type: 'none',
   },
-  routes,
+  // routes,
   fastRefresh: {},
-  layout: { // 开启项目视图骨架配置
+  layout: {
+    // 开启项目视图骨架配置
     // 支持任何不需要 dom 的
     // https://procomponents.ant.design/components/layout#prolayout
     name: 'Ant Design',
