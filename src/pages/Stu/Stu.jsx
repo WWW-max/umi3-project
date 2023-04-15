@@ -28,7 +28,7 @@ export default function Stu() {
   }, []);
   return (
     <div>
-      <Table dataSource={dataSource} columns={columns} />;
+      <Table dataSource={dataSource} columns={columns} rowKey="objectId" />;
     </div>
   );
 }

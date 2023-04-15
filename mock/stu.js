@@ -9,6 +9,7 @@ export default {
     msg: '学生数据加载成功',
     data: [
       {
+        objectId: '@id',
         name: '@name',
         score: '@Integer(50,100)',
         city: '@city',
