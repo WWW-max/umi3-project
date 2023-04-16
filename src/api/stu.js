@@ -1,5 +1,5 @@
-import { Request } from 'umi';
+import { request } from 'umi';
 
 export const getStuData = () => {
-  return Request('/classes/stu');
+  return request('/classes/stu');
 };
