@@ -18,4 +18,10 @@ export default {
     msg: '学生数据加载成功',
     data: dataList,
   }),
+  'DELETE /classes/stu': (req, res) => {
+    res.send({
+      code: 200,
+      msg: '删除成功',
+    });
+  },
 };
