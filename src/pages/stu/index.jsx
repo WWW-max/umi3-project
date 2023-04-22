@@ -18,7 +18,7 @@ const columns = [
     key: 'address',
   },
 ];
-export default function Stu() {
+export default function index() {
   const [dataSource, setDataSource] = useState([]);
   useEffect(() => {
     const res = getStuData();
