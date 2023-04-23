@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { getStuData } from '../../api/stu';
+import { Table } from 'antd';
 
 const columns = [
   {
